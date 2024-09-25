@@ -52,9 +52,5 @@ jobs:
         with:
           app-name: 'webappsammslabs13'
           slot-name: 'Production'
-<<<<<<< HEAD
           package: .
-=======
-          package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_3CF435BA5D2F4BD3B9C27F31779C7D07 }}
->>>>>>> d59dce01f0a8a384193e80c05699cdb15a38b260
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_71867D5D81674B408DB917A930C6D754 }}
