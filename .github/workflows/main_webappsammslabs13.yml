@@ -25,13 +25,13 @@ jobs:
         run: dotnet build --configuration Release
 
       - name: dotnet publish
-        run: dotnet publish -c Release --output ./bin/Release/net8.0/publish
+        run: dotnet publish webapp-sam-lab13.csproj -c Release 
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
         with:
           name: .net-app
-          path: ./bin/Release/net8.0/publish
+          path: '**/bin/Release/net8.0/publish'
 
   deploy:
     runs-on: windows-latest
@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'webappsammslabs13'
           slot-name: 'Production'
-          package: ./bin/Release/net8.0/publish
+          package: '**/bin/Release/net8.0/publish'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_71867D5D81674B408DB917A930C6D754 }}
