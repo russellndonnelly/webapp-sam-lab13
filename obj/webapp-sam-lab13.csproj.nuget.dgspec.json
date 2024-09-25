@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Allfiles\\Labs\\13\\Starter\\russellndonnelly\\webapp-sam-lab13\\webapp-sam-lab13\\webapp-sam-lab13.csproj": {}
+    "f:\\Allfiles\\Labs\\13\\Starter\\russellndonnelly\\webapp-sam-lab13\\webapp-sam-lab13\\webapp-sam-lab13.csproj": {}
   },
   "projects": {
-    "F:\\Allfiles\\Labs\\13\\Starter\\russellndonnelly\\webapp-sam-lab13\\webapp-sam-lab13\\webapp-sam-lab13.csproj": {
+    "f:\\Allfiles\\Labs\\13\\Starter\\russellndonnelly\\webapp-sam-lab13\\webapp-sam-lab13\\webapp-sam-lab13.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Allfiles\\Labs\\13\\Starter\\russellndonnelly\\webapp-sam-lab13\\webapp-sam-lab13\\webapp-sam-lab13.csproj",
+        "projectUniqueName": "f:\\Allfiles\\Labs\\13\\Starter\\russellndonnelly\\webapp-sam-lab13\\webapp-sam-lab13\\webapp-sam-lab13.csproj",
         "projectName": "webapp-sam-lab13",
-        "projectPath": "F:\\Allfiles\\Labs\\13\\Starter\\russellndonnelly\\webapp-sam-lab13\\webapp-sam-lab13\\webapp-sam-lab13.csproj",
+        "projectPath": "f:\\Allfiles\\Labs\\13\\Starter\\russellndonnelly\\webapp-sam-lab13\\webapp-sam-lab13\\webapp-sam-lab13.csproj",
         "packagesPath": "C:\\Users\\russell.n.donnelly\\.nuget\\packages\\",
-        "outputPath": "F:\\Allfiles\\Labs\\13\\Starter\\russellndonnelly\\webapp-sam-lab13\\webapp-sam-lab13\\obj\\",
+        "outputPath": "f:\\Allfiles\\Labs\\13\\Starter\\russellndonnelly\\webapp-sam-lab13\\webapp-sam-lab13\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
